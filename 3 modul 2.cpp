@@ -19,11 +19,11 @@ int main(){
 		}
 		cout<<endl;
 	}
-	cout<<"Hasil Perkalian Matriks A dan B"<<endl;
+	cout<<"Hasil Perkalian Matriks A dengan Eksponen 5"<<endl;
 	for (int i=0; i<2; i++){
 		for (int j=0; j<2; j++){
-			//soal perkalian kedua matriks
-			cout << matA[i] [j] * matB[i] [j] << " ";
+			//soal perkalian Matriks A dengan Eksponen 5
+			cout << matA[i] [j] * matA[i] [j] * matA[i] [j] * matA[i] [j] * matA[i] [j] << " ";
 		}
 		cout<<endl;
 	}
