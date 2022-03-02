@@ -22,7 +22,7 @@ int main(){
 	cout<<"Hasil Penjumlahan Matriks A dan B"<<endl;
 	for (int i=0; i<2; i++){
 		for (int j=0; j<2; j++){
-			//soal pengurangan kedua matriks
+			//soal penjumlahan kedua matriks
 			cout << matA[i] [j] + matB[i] [j] << " ";
 		}
 		cout<<endl;
